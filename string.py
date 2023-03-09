@@ -1,13 +1,16 @@
-    """_summary_
+"""_summary_
     Write a function that accepts an integer n and a string s as parameters, and returns a string of s repeated exactly n times.
 
 Examples (input -> output)
 6, "I"     -> "IIIIII"
 5, "Hello" -> "HelloHelloHelloHelloHello"
     """
-def repeat_string(n, s):
+
+
+def repeat_string(n, s): #create the function
     return s * n
 
+
 def main():
-    print(repeat_string(6, "I"))
+    print(repeat_string(6, "I")) #call the function
     print(repeat_string(5, "Hello"))
